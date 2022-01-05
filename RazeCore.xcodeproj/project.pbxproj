@@ -25,7 +25,7 @@
 		9D6B471C2785F88F0033BFA5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B471B2785F88F0033BFA5 /* Color.swift */; };
 		9DD862CD2785FA06007BD6EF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B471B2785F88F0033BFA5 /* Color.swift */; };
 		9DD862CE2785FA2E007BD6EF /* RazeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* RazeCore.swift */; };
-		9DD862D02785FB5E007BD6EF /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD862CF2785FB5E007BD6EF /* NetworkingTests.swift */; };
+		9DD862D02785FB5E007BD6EF /* RazeNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD862CF2785FB5E007BD6EF /* RazeNetworkingTests.swift */; };
 		9DD862D32785FBDF007BD6EF /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD862D22785FBDF007BD6EF /* Networking.swift */; };
 		9DD862D42785FBDF007BD6EF /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD862D22785FBDF007BD6EF /* Networking.swift */; };
 		OBJ_22 /* RazeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* RazeCore.swift */; };
@@ -54,7 +54,7 @@
 /* Begin PBXFileReference section */
 		9D6B47192785F7990033BFA5 /* XCTestMainifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestMainifests.swift; sourceTree = "<group>"; };
 		9D6B471B2785F88F0033BFA5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		9DD862CF2785FB5E007BD6EF /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
+		9DD862CF2785FB5E007BD6EF /* RazeNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RazeNetworkingTests.swift; sourceTree = "<group>"; };
 		9DD862D22785FBDF007BD6EF /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		OBJ_12 /* RazeCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RazeCoreTests.swift; sourceTree = "<group>"; };
 		OBJ_16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_12 /* RazeCoreTests.swift */,
+				9DD862CF2785FB5E007BD6EF /* RazeNetworkingTests.swift */,
 				9D6B47192785F7990033BFA5 /* XCTestMainifests.swift */,
-				9DD862CF2785FB5E007BD6EF /* NetworkingTests.swift */,
 			);
 			name = RazeCoreTests;
 			path = Tests/RazeCoreTests;
@@ -247,7 +247,7 @@
 				OBJ_40 /* RazeCoreTests.swift in Sources */,
 				9D6B471A2785F7990033BFA5 /* XCTestMainifests.swift in Sources */,
 				9DD862D42785FBDF007BD6EF /* Networking.swift in Sources */,
-				9DD862D02785FB5E007BD6EF /* NetworkingTests.swift in Sources */,
+				9DD862D02785FB5E007BD6EF /* RazeNetworkingTests.swift in Sources */,
 				9D6B471C2785F88F0033BFA5 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
